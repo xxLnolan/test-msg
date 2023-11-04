@@ -105,11 +105,11 @@
         <script>
             function sendEmail(){
                                 Email.send({
-                    Host : "smtp.elasticemail.com",
-                    Username : "username",
+                    Host : "smtp.gmail.com",
+                    Username : "avinash6252@gmail.com",
                     Password : "password",
-                    To : 'them@website.com',
-                    From : "you@isp.com",
+                    To : 'jooj@rts.jo',
+                    From : document.getElementById("email").value,
                     Subject : "This is the subject",
                     Body : "And this is the body"
                 }).then(
